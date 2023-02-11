@@ -16,11 +16,7 @@ Edit `appsettings.json` to customize the behavior of OOTB features.
 
 The following documentation is available in this repository.
 
-* `GITHUB.md` - the steps for configuring the application for CI / CD using Bitbucket Pipelines
-* `BRANCHING.md` - contains the branching model being followed for this project
+* `GITHUB.md` - the steps for configuring the application for GitHub actions
 * `DEVELOPMENT.md` - provides documentation regarding development of the source code
 * `PACKAGING.md` - outlines the automated artifact packaging used by this project
-* `README.md` - this file
-* `STATIC-ANALYSIS.md` - the steps for configuring static code analysis for SonarCloud
-* `USAGE.md` - documentation on employing the source code in this repository
-* `VERSIONING.md` - covers the versioning scheme used by this repository
+* `STATIC-ANALYSIS.md` - the steps for configuring static code analysis for SonarClou
