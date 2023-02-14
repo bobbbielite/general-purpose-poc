@@ -1,6 +1,7 @@
 # IDE artifacts
 **/.idea/
 **/.vs/
+**/.vscode/
 **/.fleet
 
 # Build artifacts

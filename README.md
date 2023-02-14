@@ -12,6 +12,14 @@ This project was created with Microsoft's mvc template. More information can be 
 
 Edit `appsettings.json` to customize the behavior of OOTB features.
 
+## StyleCop Analyzers
+Usage: https://dotnetanalyzers.github.io/StyleCopAnalyzers/
+
+## How to run project
+```sh
+dotnet run --launch-profile "https"
+```
+
 ## Documentation
 
 The following documentation is available in this repository.
