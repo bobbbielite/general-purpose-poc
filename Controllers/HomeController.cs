@@ -1,20 +1,20 @@
 ﻿using System.Diagnostics;
-using Microsoft.AspNetCore.Mvc;
 using general_purpose_poc.Models;
+using Microsoft.AspNetCore.Mvc;
 
 namespace general_purpose_poc.Controllers;
 
 /// <summary>
-/// Home controller class
+/// Home controller class.
 /// </summary>
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
 
     /// <summary>
-    /// Creates an instance of HomeController.
+    /// Initializes a new instance of the <see cref="HomeController"/> class.
     /// </summary>
-    /// <param name="logger"></param>
+    /// <param name="logger">logger instance.</param>
     public HomeController(ILogger<HomeController> logger)
     {
         _logger = logger;
@@ -23,7 +23,7 @@ public class HomeController : Controller
     /// <summary>
     /// Displays home index page to user.
     /// </summary>
-    /// <returns></returns>
+    /// <returns><see cref="IActionResult"/>.</returns>
     public IActionResult Index()
     {
         return View();
@@ -32,16 +32,16 @@ public class HomeController : Controller
     /// <summary>
     /// Displays privacy index page to user.
     /// </summary>
-    /// <returns></returns>
+    /// <returns><see cref="IActionResult"/>.</returns>
     public IActionResult Privacy()
     {
         return View();
     }
 
     /// <summary>
-    /// Displays error page to user. 
+    /// Displays error page to user.
     /// </summary>
-    /// <returns></returns>
+    /// <returns><see cref="IActionResult"/>.</returns>
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
     {

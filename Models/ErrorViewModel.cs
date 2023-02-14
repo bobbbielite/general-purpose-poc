@@ -1,19 +1,19 @@
 namespace general_purpose_poc.Models;
 
 /// <summary>
-/// View model for errors
+/// View model for errors.
 /// </summary>
 public class ErrorViewModel
 {
     /// <summary>
-    /// String that represents the Request ID.
+    /// Gets or sets a request id.
     /// </summary>
-    /// <value></value>
+    /// <value><see cref="string"/>.</value>
     public string? RequestId { get; set; }
 
     /// <summary>
-    /// Boolean value that represents whether the UI should show this or not. 
+    /// Gets a value indicating whether the UI should display request id.
     /// </summary>
-    /// <returns></returns>
+    /// <returns><see cref="bool"/>.</returns>
     public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
 }
